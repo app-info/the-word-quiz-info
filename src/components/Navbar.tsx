@@ -6,7 +6,7 @@ interface Props {
   language: string;
   setLanguage: Dispatch<SetStateAction<string>>;
 }
-const logo = require("../assets/images/logo.png");
+const logo = require("../assets/images/agioiPantes.png");
 
 const Navbar: FC<Props> = ({ language, setLanguage }) => {
   return (
@@ -15,15 +15,15 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
         <img src={logo} alt="logo" width={50} height={40} />
       </a>
 
-      <a className="info-link" href="#info">
+      {/* <a className="info-link" href="#info">
         {language === "GR" ? "Πληροφορίες" : "Info"}
-      </a>
+      </a> */}
 
       <a className="info-link" href="#privacy-policy">
         {language === "GR" ? "Privacy-policy" : "Privacy-policy"}
       </a>
 
-      <div className="languages-container">
+      {/* <div className="languages-container">
         <div
           onClick={() => setLanguage("GR")}
           className={`language ${language === "GR" ? "active" : "inactive"} `}
@@ -46,7 +46,7 @@ const Navbar: FC<Props> = ({ language, setLanguage }) => {
             src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

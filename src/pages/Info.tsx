@@ -7,10 +7,7 @@ const appleGR = require("../assets/images/AppStoreGR.png");
 const appleEN = require("../assets/images/AppStoreEN.png");
 const androidEN = require("../assets/images/google-play-badgeEN.png");
 const androidGR = require("../assets/images/google-play-badgeGR.png");
-const gr9 = require("../assets/images/9gr.jpeg");
-const gr10 = require("../assets/images/10gr.jpeg");
-const en9 = require("../assets/images/9en.jpeg");
-const en10 = require("../assets/images/10en.jpeg");
+
 interface Props {
   language: string;
 }
@@ -24,14 +21,6 @@ const Info: FC<Props> = ({ language }) => {
 
   return (
     <article className="info" id="info">
-      <img
-        className="phone-screen"
-        src={language === "GR" ? gr9 : en9}
-        alt="screen shot of phone"
-        width={300}
-        height={600}
-      />
-
       <article className="info-text">
         <p>{language === "GR" ? infoTextGR : infoTextEN}</p>
 
@@ -63,14 +52,6 @@ const Info: FC<Props> = ({ language }) => {
           </div>
         </section>
       </article>
-
-      <img
-        className="phone-screen"
-        src={language === "GR" ? gr10 : en10}
-        alt="screen shot of phone"
-        width={300}
-        height={600}
-      />
     </article>
   );
 };

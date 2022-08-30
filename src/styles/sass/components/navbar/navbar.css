@@ -1,12 +1,12 @@
 #navbar {
   overflow: hidden;
-  background-color: #e2d1b2;
+  background-color: #cbb38f;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #620000;
+  color: #d4dfe3;
   text-align: center;
   padding: 2px 7px;
   text-decoration: none;
@@ -14,8 +14,8 @@
 }
 
 #navbar a.active {
-  background-color: #620000;
-  color: #e2d1b2;
+  background-color: #d4dfe3;
+  color: #cbb38f;
 }
 
 .content {
