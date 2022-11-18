@@ -11,7 +11,7 @@ const logo = require("../assets/images/agioiPantes.png");
 const Navbar: FC<Props> = ({ language, setLanguage }) => {
   return (
     <div id="navbar">
-      <a className="active" href="#heroSlider">
+      <a className="active" href="#home">
         <img src={logo} alt="logo" width={50} height={40} />
       </a>
 

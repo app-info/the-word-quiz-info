@@ -5,7 +5,7 @@ import { Navbar } from "./components";
 function App() {
   const [language, setLanguage] = useState<string>("GR");
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Navbar language={language} setLanguage={setLanguage} />
       {/* <Info language={language} /> */}
       <PrivacyPolicy />
