@@ -2,7 +2,7 @@
 
 - [upload to github](https://www.youtube.com/watch?v=Q9n2mLqXFpU&t=528s&ab_channel=PedroTech)
 - `npm install gh-pages --save-dev `
-- add `"homepage": "https://footios.github.io/hagio-geo-info"` to `package.json`
+- add `"homepage": "https://app-info.github.io/hagio-geo-info/"` to `package.json`
 - add these `scripts` to `package.json`:
 
   - `"predeploy": "npm run build",`
@@ -10,4 +10,4 @@
 
 - Just run `npm run deploy`
 
-- [site is live here](https://footios.github.io/hagio-geo-info/)
+- [site is live here](https://app-info.github.io/hagio-geo-info/)

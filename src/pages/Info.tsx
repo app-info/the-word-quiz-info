@@ -26,11 +26,7 @@ const Info: FC<Props> = ({ language }) => {
 
         <section className="footer-links">
           <div>
-            <a
-              href="https://apps.apple.com/gr/app/in-this-you-conquer/id1602477321"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#" target="_blank" rel="noreferrer">
               <img src={apple} alt="App store badge" />
             </a>
           </div>
@@ -38,7 +34,7 @@ const Info: FC<Props> = ({ language }) => {
           <div>
             <a
               id="link"
-              href="https://play.google.com/store/apps/details?id=com.entoutonika"
+              href="  https://play.google.com/store/apps/details?id=com.entoutonika"
               target="_blank"
               rel="noreferrer"
             >

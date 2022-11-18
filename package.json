@@ -1,6 +1,6 @@
 {
   "name": "hagio-geo-info",
-  "homepage": "https://footios.github.io/hagio-geo-info",
+  "homepage": "https://app-info.github.io/hagio-geo-info/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -58,6 +58,7 @@
   "devDependencies": {
     "@types/bootstrap": "^5.1.12",
     "@types/eslint": "8.4.3",
+    "@types/gh-pages": "^3.2.1",
     "@types/prettier": "2.6.2",
     "@types/testing-library__jest-dom": "^5.14.3",
     "@types/testing-library__user-event": "^4.2.0",
