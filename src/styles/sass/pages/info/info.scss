@@ -12,6 +12,7 @@
   width: 50rem;
   font-size: 1.9rem;
   font-family: $tahoma;
+  color: $secondary_dark;
   color: $text;
   padding: 2rem;
 }
@@ -43,6 +44,8 @@
     display: flex;
     flex: 2;
     flex-direction: column;
+    color: $secondary_dark;
+    width: 50em;
   }
 
   .phone-screen {
