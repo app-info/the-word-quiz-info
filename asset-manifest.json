@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-word-quiz-info/static/css/main.fa788d73.css",
+    "main.js": "/the-word-quiz-info/static/js/main.752e036a.js",
+    "static/media/agioiPantes.png": "/the-word-quiz-info/static/media/agioiPantes.ec2fa59873f83fb23c5d.png",
+    "static/media/google-play-badgeGR.png": "/the-word-quiz-info/static/media/google-play-badgeGR.53c2ecdb7d5afa1746f4.png",
+    "index.html": "/the-word-quiz-info/index.html",
+    "main.fa788d73.css.map": "/the-word-quiz-info/static/css/main.fa788d73.css.map",
+    "main.752e036a.js.map": "/the-word-quiz-info/static/js/main.752e036a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa788d73.css",
+    "static/js/main.752e036a.js"
+  ]
+}
