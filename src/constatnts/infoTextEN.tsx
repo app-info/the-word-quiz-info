@@ -13,10 +13,7 @@ const infoTextEN = (
         tailored to your preferred difficulty level or delve into the insightful
         perspective of Saint John Chrysostom. Track your progress over time with
         the built-in chart feature, view your success rates by week, month, or
-        year for both easy and Chrysostom-based quizzes. Unlock achievements,
-        compete on leaderboards, and share your accomplishments with friends.
-        Download &quot;The Word - Quiz&quot; now and deepen your understanding
-        of the New Testament while having fun!
+        year for both easy and Chrysostom-based quizzes.
       </p>
     </div>
     <br />

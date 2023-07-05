@@ -1,12 +1,12 @@
 #navbar {
   overflow: hidden;
-  background-color: #cbb38f;
+  background-color: #9d7902;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #d4dfe3;
+  color: #AA5042;
   text-align: center;
   padding: 2px 7px;
   text-decoration: none;
@@ -14,8 +14,8 @@
 }
 
 #navbar a.active {
-  background-color: #d4dfe3;
-  color: #cbb38f;
+  background-color: #AA5042;
+  color: #9d7902;
 }
 
 .content {
@@ -37,19 +37,10 @@
 }
 
 .languages-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
   margin-top: 10px;
 }
 
@@ -64,5 +55,4 @@
 
 .language.active {
   opacity: 1;
-}
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */
