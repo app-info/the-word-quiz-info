@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-import React, { FC } from "react";
+import React from "react";
 import { infoTextGR } from "../constatnts";
 import { infoTextEN } from "../constatnts";
 import "./../styles/sass/pages/info/info.css";

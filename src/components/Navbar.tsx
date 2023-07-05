@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import "../styles/sass/components/navbar/navbar.css";
 
-const logo = require("../assets/images/agioiPantes.png");
+const logo = require("../assets/images/logo512.png");
 
 const Navbar: FC = () => {
   return (
