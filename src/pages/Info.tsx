@@ -1,16 +1,17 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import React, { FC } from "react";
 import { infoTextGR } from "../constatnts";
+import { infoTextEN } from "../constatnts";
 import "./../styles/sass/pages/info/info.css";
 
 const appleGR = require("../assets/images/AppStoreGR.png");
 const androidGR = require("../assets/images/google-play-badgeGR.png");
 
-const Info: FC = () => {
+const Info = ({ userLanguage }: { userLanguage: string }) => {
   return (
     <article className="info" id="info">
       <article className="info-text">
-        <p>{infoTextGR}</p>
+        <p>{userLanguage === "el-GR" ? infoTextGR : infoTextEN}</p>
         <section className="footer-links">
           <div>
             <a

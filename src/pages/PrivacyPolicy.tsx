@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           We respect your privacy and are committed to protecting it through our
           compliance with this privacy policy (“Policy”). This Policy describes
           the types of information we may collect from you or that you may
-          provide (“Personal Information”) in the “Τοπικοί Ἅγιοι” mobile
+          provide (“Personal Information”) in the “The Word Quiz” mobile
           application (“Mobile Application” or “Service”) and any of its related
           products and services (collectively, “Services”), and our practices
           for collecting, using, maintaining, protecting, and disclosing that
